@@ -1,119 +1,66 @@
-*{
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
-ul{
-  height: 80px;
-  width: 100%;
-  background-color: black;
-  color: white;
-  display: flex;
-  align-items: center;
-  list-style: none;
-}
-.right{
-  margin-left: 48%;
-}
-li{
-  margin-left: 6%;
-}
-.name{
-  font-size: 24px;
-  color:white;
-  font-family: sans-serif;
-}
-img{
-  position: fixed;
-  height: 550px;
-  width: 100%;
-  position: relative;
-}
-.port{
-  color: aliceblue;
-  position: absolute;
-  top: 20%;
-  right:10%;
-  font-size: 25px;
-}
-.ram{
-  height: 400px;
-  width: 200x;
-  border-radius: 30%;
-}
-.line{
-  position: absolute;
-  top: 20%;
-  left:10%;
-  color: white;
-  font-size: 22px;
-}
-a{
-  color: white;
-}
-a:hover{
-  color: aqua;
-}
-h1:hover{
-  color: aquamarine;
 
-}
-.box{
-  position: relative;
-  height: 100px;
-  width: 100%;
-  color:black;
+body {
+  height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
-  border:ridge;
-  font-size: 24px;
+  align-items: center;
+  background: #222;
 }
-.step{
-  height: 1500px;
+
+.calculator {
+  width: 320px;
+  background: #333;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+#display {
   width: 100%;
-  position: fixed;
-  position: absolute;
+  height: 60px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 28px;
+  text-align: right;
+}
 
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
 
-}
-.chin{
-  position: absolute;
+button {
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+  font-size: 22px;
+  cursor: pointer;
+  background: #555;
   color: white;
-  margin-left: 20%;
-  margin-top: 5%;
 }
-h2{
-  position: absolute;
-  color: white;
-  margin-left: 8%;
-  margin-top: 10%;
+
+button:hover {
+  background: #777;
 }
-h3{
-  position: absolute;
-  color:white;
-  border: double;
-  margin-left: 40%;
-  margin-top: 55%;
-  font-size: 40px;
+
+.equal {
+  background: orange;
 }
-h4{
-  position:absolute;
-  color: white;
-  margin-left: 70%;
-  margin-top: 63%;
-  font-size: 24px;
+
+.equal:hover {
+  background: darkorange;
 }
-.shri{
-  position: absolute;
-  margin-left: 8%;
-  margin-top: 63%;
-  height: 400px;
-  width: 500px;
-}
-.vivo{
-  position: absolute;
-  margin-left: 58%;
-  margin-top: 150px;
-  height: 400px;
-  width: 500px;
+
+.zero {
+  grid-column: span 2;
 }
