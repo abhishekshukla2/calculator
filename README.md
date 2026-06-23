@@ -2,7 +2,7 @@
 
 A simple and responsive **Calculator Web Application** built using **HTML, CSS, and JavaScript**.
 
- 🚀 Features
+ ##🚀 Features
 - Addition (+)
 - Subtraction (-)
 - Multiplication (*)
