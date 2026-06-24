@@ -8,7 +8,7 @@ A simple and responsive **Calculator Web Application** built using **HTML, CSS, 
 - Multiplication (*)
 - Division (/)
 - Clear button
-- Delete 
+- Delete button
 - Responsive design
 - Clean user interface
 
